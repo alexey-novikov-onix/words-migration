@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class PossiblySameWordService {
+public final class PossiblySameWordService {
 
     public boolean isSame(final String search, final List<String> words) {
         for (String word : words) {

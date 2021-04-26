@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
-public class WordService {
+public final class WordService {
 
     private final WordRepository wordRepository;
     private final WordCacheService wordCacheService;
